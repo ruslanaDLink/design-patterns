@@ -1,11 +1,11 @@
-package patterns.simplefactory.base;
+package patterns.creational.simplefactory.base;
 
-import patterns.simplefactory.SocialNetwork;
+import patterns.creational.simplefactory.SocialNetwork;
 
 import java.net.URI;
 import java.net.URISyntaxException;
 
-public class Facebook extends SocialNetwork {
+public class Snapchat extends SocialNetwork {
 
     @Override
     public String getName() {

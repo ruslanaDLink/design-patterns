@@ -1,4 +1,4 @@
-package patterns.simplefactory;
+package patterns.creational.simplefactory;
 
 import java.net.URI;
 import java.net.URISyntaxException;

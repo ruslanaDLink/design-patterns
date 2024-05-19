@@ -1,7 +1,11 @@
-package patterns.builder;
+package patterns.creational.builder;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import patterns.creational.builder.Item;
+import patterns.creational.builder.ItemDTO;
+import patterns.creational.builder.ItemDirector;
+import patterns.creational.builder.MissingArgumentException;
 
 class ItemDirectorTest {
 
