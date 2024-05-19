@@ -1,4 +1,4 @@
-package patterns.builder;
+package patterns.creational.builder;
 
 public record ItemDTO(String name, String material, String country, double price) {
     public static ItemDTOBuilderExecutor getBuilder() {

@@ -1,9 +1,9 @@
-package patterns.simplefactory;
+package patterns.creational.simplefactory;
 
-import patterns.simplefactory.base.Facebook;
-import patterns.simplefactory.base.Instagram;
-import patterns.simplefactory.base.Snapchat;
-import patterns.simplefactory.base.Twitter;
+import patterns.creational.simplefactory.base.Facebook;
+import patterns.creational.simplefactory.base.Instagram;
+import patterns.creational.simplefactory.base.Snapchat;
+import patterns.creational.simplefactory.base.Twitter;
 
 import java.net.URI;
 import java.net.URISyntaxException;

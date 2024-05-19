@@ -1,11 +1,11 @@
-package patterns.simplefactory.base;
+package patterns.creational.simplefactory.base;
 
-import patterns.simplefactory.SocialNetwork;
+import patterns.creational.simplefactory.SocialNetwork;
 
 import java.net.URI;
 import java.net.URISyntaxException;
 
-public class Twitter extends SocialNetwork {
+public class Instagram extends SocialNetwork {
 
     @Override
     public String getName() {

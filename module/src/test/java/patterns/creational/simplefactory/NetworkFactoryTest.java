@@ -1,7 +1,10 @@
-package patterns.simplefactory;
+package patterns.creational.simplefactory;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import patterns.creational.simplefactory.Network;
+import patterns.creational.simplefactory.NetworkFactory;
+import patterns.creational.simplefactory.SocialNetwork;
 
 import java.net.URISyntaxException;
 
