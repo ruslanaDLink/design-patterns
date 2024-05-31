@@ -8,11 +8,11 @@ public class MainDemo {
     public static void main(String[] args) throws SQLException {
         NetworkUser user = new NetworkUser();
 
-        UserAdaptee userAdaptee = new UserAdaptee();
+        Connector connector = new Connector();
 
         DatabaseAdapter adapter = new DatabaseAdapter(user);
 
-        Connection connection = userAdaptee.connectUserToDatabase(adapter);
+        Connection connection = connector.connectUserToDatabase(adapter);
 
         boolean isValid = connection.isValid(3000);
         System.out.println("Is connection valid? " + isValid);

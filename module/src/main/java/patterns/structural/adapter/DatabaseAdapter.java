@@ -5,11 +5,11 @@ import java.sql.SQLException;
 
 public class DatabaseAdapter extends NetworkUser implements DatabaseManager {
     private NetworkUser networkUser;
-    private UserAdaptee userAdaptee;
+    private Connector connector;
 
     public DatabaseAdapter(NetworkUser user) {
         this.networkUser = user;
-        userAdaptee = new UserAdaptee();
+        connector = new Connector();
     }
 
     @Override
@@ -19,7 +19,7 @@ public class DatabaseAdapter extends NetworkUser implements DatabaseManager {
         networkUser.setUsername(username);
         networkUser.setPassword(password);
 
-        Connection connection = userAdaptee.connectUserToDatabase(networkUser);
+        Connection connection = connector.connectUserToDatabase(networkUser);
         try {
             if (connection != null && !connection.isClosed()) {
                 System.out.println("Connected to database.");
