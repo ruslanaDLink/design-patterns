@@ -10,7 +10,6 @@ public class NetworkUser {
     public String getDriver() {
         return driver;
     }
-
     public void setDriver(String driver) {
         this.driver = driver;
     }
