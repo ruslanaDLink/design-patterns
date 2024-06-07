@@ -25,4 +25,9 @@ public class LinkedHashMap<T> implements OrderedCollection<T> {
     public void printList() {
         list.printElements();
     }
+
+    @Override
+    public boolean contains(T e) {
+        return list.isElementInTheList(e);
+    }
 }

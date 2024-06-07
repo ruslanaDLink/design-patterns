@@ -51,7 +51,7 @@ public class ArrayList<T> implements List<T> {
     }
 
     @Override
-    public boolean contains(T e) {
+    public boolean isElementInTheList(T e) {
         for (Object o : list) {
             if (o == e) {
                 return true;

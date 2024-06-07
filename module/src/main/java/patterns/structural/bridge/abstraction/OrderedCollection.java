@@ -8,4 +8,6 @@ public interface OrderedCollection<T> {
     void remove(T e);
 
     void printList();
+
+    boolean contains(T e);
 }
