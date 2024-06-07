@@ -1,0 +1,9 @@
+1. Create Component Interface.
+
+2. Create Concrete Component Class which implements the interface.
+
+3. Create Decorator class with the reference to the Concrete Component.
+
+4. Decorator should also implement Component Interface.
+
+5. Provide additional functionality for the Decorator.
