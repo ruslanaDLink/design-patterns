@@ -10,7 +10,7 @@ public interface List<T> {
 
     int size();
 
-    boolean contains(T e);
+    boolean isElementInTheList(T e);
 
     void printElements();
 }
