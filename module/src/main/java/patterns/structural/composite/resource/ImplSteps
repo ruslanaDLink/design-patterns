@@ -1,0 +1,9 @@
+--Composite Pattern Implementation Steps--
+
+1. Create an abstract class/interface and think of it as a 'tree'.
+   Its methods should be applicable for its children and composite.
+
+2. Create a 'leaf' class with the implementation of methods of 'tree' abstraction.
+
+3. Create a Composite with the implementation of methods 'tree' abstraction.
+   It must store leaf components.
