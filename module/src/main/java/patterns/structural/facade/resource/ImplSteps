@@ -1,0 +1,5 @@
+--Facade Pattern Implementation Steps--
+
+1. Create subsystem.
+
+2. Provide the one interface (which is facade) to the set of interfaces.
