@@ -7,7 +7,7 @@ import patterns.creational.builder.ItemDTO;
 import patterns.creational.builder.ItemDirector;
 import patterns.creational.builder.MissingArgumentException;
 
-class ItemDirectorTest {
+class ProductDirectorTest {
 
     @Test
     void build() throws MissingArgumentException {
