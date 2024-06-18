@@ -1,0 +1,9 @@
+--Chain of Responsibility Pattern Implementation Steps--
+
+1. Define a handler as interface.
+
+2. Create concrete handlers and define base handler inside all of them.
+
+3. Concrete handler should determine if it can handle the request.
+ If it's not, then simply switch the operation to the next handler.
+
