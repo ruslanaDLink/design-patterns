@@ -1,0 +1,15 @@
+--Interpreter Pattern Implementation Steps--
+
+1. Define an abstract class or interface to represent an expression.
+
+2. Define a method which should interpret the expression.
+
+3. Create non-terminal expression classes.
+
+(P.S. Terminal expression does not need other expressions to interpret. Non-terminal in the contrary).
+
+4. Create terminal expression classes.
+
+5. Test application.
+
+
