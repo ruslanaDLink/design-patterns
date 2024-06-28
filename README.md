@@ -16,5 +16,14 @@ The following design patterns are covered in this repository:
 - Structural Patterns
   - Adapter
   - Bridge
+  - Composite
+  - Decorator
+  - Facade
+  - Flyweight
+  - Proxy
+    
+- Behavioral Patterns
+  - Chain of Responsibility
+  - Interpreter
 
 To be continued...
