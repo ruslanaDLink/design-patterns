@@ -1,0 +1,6 @@
+--Mediator Pattern Implementation Steps--
+
+1. Create the colleague interface.
+2. Create its concrete implementations.
+3. Create a Mediator which should define the communication between objects.
+4. Create a concrete implementation on Mediator which should contain the user's list.
