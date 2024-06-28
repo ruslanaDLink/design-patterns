@@ -1,0 +1,6 @@
+Memento uses three helper classes:
+
+    - memento (contains state of the object)
+    - caretaker (restore object state from Memento)
+    - originator (creates and stores states in memento objects)
+
