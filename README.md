@@ -25,5 +25,8 @@ The following design patterns are covered in this repository:
 - Behavioral Patterns
   - Chain of Responsibility
   - Interpreter
+  - Memento
+  - Mediator
+  - Observer
 
 To be continued...
