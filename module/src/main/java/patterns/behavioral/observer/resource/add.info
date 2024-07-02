@@ -1,0 +1,15 @@
+Observer has a power to notify other objects when object's state is changed.
+It is also called as 'pub-sub' (publisher-subscriber) pattern which uses one-to-many relationship.
+To follow the instructions of Observer Pattern we need to create such components:
+
+    - subject
+    ( an interface with methods to register/unregister observer and notify others about changing its state )
+
+    - observer
+     ( an interface with the update method )
+
+    - concrete subject
+    ( class with a list of observers and implementation of subject interface)
+
+    - concrete observer
+    ( implementation of observer interface )
