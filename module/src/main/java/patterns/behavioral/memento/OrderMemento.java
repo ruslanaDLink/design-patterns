@@ -1,6 +1,5 @@
 package patterns.behavioral.memento;
 
-//memento
 public class OrderMemento {
     private Status status;
 

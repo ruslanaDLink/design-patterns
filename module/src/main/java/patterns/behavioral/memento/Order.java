@@ -1,6 +1,5 @@
 package patterns.behavioral.memento;
 
-//originator
 public class Order {
     private Status status;
 
@@ -19,4 +18,5 @@ public class Order {
     public void restoreStatus(OrderMemento orderMemento) {
         this.status = orderMemento.getStatus();
     }
+
 }

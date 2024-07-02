@@ -3,7 +3,6 @@ package patterns.behavioral.memento;
 import java.util.ArrayList;
 import java.util.List;
 
-//caretaker
 public class OrderHistory {
     private List<OrderMemento> orders;
 
