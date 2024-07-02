@@ -28,5 +28,7 @@ The following design patterns are covered in this repository:
   - Memento
   - Mediator
   - Observer
+  - State
+  - Strategy
 
 To be continued...
